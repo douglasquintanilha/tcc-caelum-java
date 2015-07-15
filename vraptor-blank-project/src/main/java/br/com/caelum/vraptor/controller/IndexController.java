@@ -9,13 +9,13 @@ import br.com.caelum.vraptor.Result;
 @Controller
 public class IndexController {
 
-	private final Result result;
+	private Result result;
 
 	/**
 	 * @deprecated CDI eyes only
 	 */
 	
-	
+	public IndexController() {}
 
 	@Inject
 	public IndexController(Result result) {

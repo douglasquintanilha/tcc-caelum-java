@@ -12,7 +12,7 @@
 		<nav>
 			<ul class="nav nav-tabs">
 				<li><a href="${linkTo[IndexController].index() }"> Home</a> </li>
-				<li><a href="${linkTo[UsuarioController].cadastra() }"> Cadastro</a> </li>
+				<li><a href="${linkTo[UsuarioController].form() }"> Cadastro</a> </li>
 			</ul>
 		</nav>
 	</header>
