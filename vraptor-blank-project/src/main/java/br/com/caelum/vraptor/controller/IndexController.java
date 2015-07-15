@@ -14,10 +14,9 @@ public class IndexController {
 	/**
 	 * @deprecated CDI eyes only
 	 */
-	protected IndexController() {
-		this(null);
-	}
 	
+	
+
 	@Inject
 	public IndexController(Result result) {
 		this.result = result;
